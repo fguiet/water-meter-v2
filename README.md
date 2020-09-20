@@ -26,8 +26,12 @@ Must be done on this new project...but first tests are ok
 
 ## 3D CNY70 Holder
 
-See my old project, nothing changed here : https://github.com/fguiet/water-meter
+See my old project, nothing changed here : <https://github.com/fguiet/water-meter>
 
 ## In real life
 
 ![Water Meter V2](images/water-meter-v2-lorawan.png)
+
+## Issue
+
+At the moment, one issue : <https://github.com/matthijskooijman/arduino-lmic/issues/293>
