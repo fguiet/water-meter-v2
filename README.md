@@ -30,3 +30,4 @@ See my old project, nothing changed here : https://github.com/fguiet/water-meter
 
 ## In real life
 
+![Water Meter V2](images/water-meter-v2-lorawan.png)
