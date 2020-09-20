@@ -1,4 +1,4 @@
-# water-meter version 2 (LoRawWAN enabled)
+# water-meter version 2 (LoRaWAN enabled)
 
 ## Forewords
 
