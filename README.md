@@ -1,4 +1,4 @@
-# water-meter version 2 (LoRawWAN enabled)
+# water-meter version 2 (LoRaWAN enabled)
 
 ## Forewords
 
@@ -29,8 +29,12 @@ Available here (locate Water Meter v2 Datasheet) : <https://easyeda.com/fguiet/w
 
 ## 3D CNY70 Holder
 
-See my old project, nothing changed here : https://github.com/fguiet/water-meter
+See my old project, nothing changed here : <https://github.com/fguiet/water-meter>
 
 ## In real life
 
 ![Water Meter V2](images/water-meter-v2-lorawan.png)
+
+## Known issues
+
+At the moment, one issue : <https://github.com/matthijskooijman/arduino-lmic/issues/293>
