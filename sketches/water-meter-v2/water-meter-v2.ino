@@ -79,7 +79,7 @@ static osjob_t sendjob;
 //const unsigned TX_INTERVAL = 10;
 
 /************* WATER_METER_STUFF *************/
-#define DEBUG 1
+#define DEBUG 0
 
 const String FIRMWARE_VERSION= "2.6";
 

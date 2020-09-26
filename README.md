@@ -22,7 +22,10 @@ Available here (locate Water Meter v2 Datasheet) : <https://easyeda.com/fguiet/w
 
 ## Sensor accuracy
 
-Must be done on this new project...but first tests are ok
+| Timestamp | Raw water meter value | Total liters read from sensor |  Real water comsumption |  Error in liter |
+|:------------------:|:---------------------:|:-----------------------------------:|:-----------------------:|:--------------------------:|
+| 2020/09/20 @ 18h15 | 2177 994 | 0 | 0 | 0 |
+| 2020/09/26 @ 10h56 | 2180 397 | 2405 | 2403 | __2__ |
 
 ## 3D CNY70 Holder
 
