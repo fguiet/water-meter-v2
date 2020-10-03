@@ -35,6 +35,20 @@ See my old project, nothing changed here : <https://github.com/fguiet/water-mete
 
 ![Water Meter V2](images/water-meter-v2-lorawan.png)
 
+## Some charts
+
+Proof of concept : some charts
+
+* Water consumption per hour
+
+![Water Consumption per hour](images/water_consumption_per_hour.jpg)
+
+* Water consumption per day
+
+As you can see, on average, we consume around 400 liter per day (we are 4 in the house).
+
+![Water Consumption per day](images/water_consumption_per_day.jpg)
+
 ## Known issues
 
 At the moment, one issue : <https://github.com/matthijskooijman/arduino-lmic/issues/293>
