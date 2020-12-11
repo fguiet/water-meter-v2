@@ -11,7 +11,7 @@ This project uses :
 * CNY70 reflective sensor (that includes an infrared emitter and phototransistor)
 * Arduino Pro Mini 3.3v, 8Mhz
 * Solar Panel
-* TP4056 (Lithium Battery Charger Module)
+* Update 2020/12/11 : Change TP4056 lithium battery charger model from [this one](https://fr.aliexpress.com/item/32705078422.html) to [this one](https://components101.com/tp4056a-li-ion-battery-chargingdischarging-module). This new model includes a over-discharge protection.
 * RFM95W LoRa Module
 
 ## Datasheet
