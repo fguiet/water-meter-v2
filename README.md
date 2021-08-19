@@ -4,6 +4,10 @@
 
 This project aims at getting an analog signal from a water meter and use it for a house automatization system to control the water consumption.
 
+The principle is very basic. My water meter has got a silverish arrow which turns 360° each time one liter is consumed.
+
+I just installed a CNY70 reflective sensor so each time the silver arrow pass underneath then a LoRa message is sent to my automation server.
+
 ## Specifications
 
 This project uses :
@@ -20,6 +24,8 @@ This project uses :
 
 Available here (locate Water Meter v2 Datasheet) : <https://easyeda.com/fguiet/water-meter>
 
+__Caution__ : The potentiometer should be adjusted using debug mode. `INTERRUPT_PIN` should report 1 only when the silver arrow is underneath the CNY70 sensor.
+
 ## Sensor accuracy
 
 | Timestamp | Raw water meter value | Total liters read from sensor |  Real water comsumption |  Error in liter |
@@ -32,6 +38,12 @@ Available here (locate Water Meter v2 Datasheet) : <https://easyeda.com/fguiet/w
 See my old project, nothing changed here : <https://github.com/fguiet/water-meter>
 
 ## In real life
+
+* CNY70 Sensor + custom 3D printed holder on water meter
+
+![Water Meter V2](images/watermeter_cny70.jpg)
+
+* The electronic parts in the waterproof box
 
 ![Water Meter V2](images/water-meter-v2-lorawan.png)
 
