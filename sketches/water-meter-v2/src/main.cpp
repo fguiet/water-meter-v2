@@ -81,13 +81,13 @@ static osjob_t sendjob;
 //const unsigned TX_INTERVAL = 10;
 
 /************* WATER_METER_STUFF *************/
-#define DEBUG 0
+#define DEBUG 1
 
 const String FIRMWARE_VERSION= "2.7";
 
 const int LED_PIN = 7;
 const int INTERRUPT_PIN = 3; //Comes from sensor
-//const int SENSOR_PIN = A0; //Comes from sensor
+const int SENSOR_PIN = A0; //Comes from sensor
 
 const int BATTERY_ANALOG_PIN = A1;
 
@@ -361,7 +361,8 @@ void setup_water_meter_system() {
   //analogReference(INTERNAL);
 
   //To monitor analog input voltage  
-  //pinMode(SENSOR_PIN, INPUT);
+  pinMode(SENSOR_PIN, INPUT);
+  
   //pinMode(VOLTAGE_PIN, INPUT);
 
   pinMode(LED_PIN, OUTPUT);
@@ -500,26 +501,30 @@ void sendMessage(unsigned int liter) {
 
 void water_meter_core() {
  
+
   //DEBUG STUFF
-  /*int intPinValue = digitalRead(INTERRUPT_PIN);
+  int intPinValue = digitalRead(INTERRUPT_PIN);
   debug_message("Interrupt Pin Status :  " + String(intPinValue), true);    
+  
   
   int inputVoltage = analogRead(SENSOR_PIN);  
   debug_message("Input Voltage :  " + String(inputVoltage), true);  
+  //delay(200);
+  //return;
 
-  if (literConsumed) {
+  /*) {
     debug_message("Liter consumed :  VRAI", true); 
     literConsumed = false;
   }
   else {
     debug_message("Liter consumed :  FALSE", true);
-  }
+  }*/
 
-  delay(200);
+  //delay(200);  
 
-  return; */
+  //return; 
   //END DEBUG STUFF  
-
+  
   //Read interrupt PIN every x ms...
   if (currentTime - debouncedTime > debounceInterval || debouncedTime > currentTime) {  
       
